@@ -7,7 +7,7 @@
         <div class="aviso max-w-[32ch] text-center">acepta generar una noticia que será añadida al feed</div>
       </div>
       <div class="generador_bottom">
-        <button class="svg-button text-[14px]">Generar</button>
+        <button class="svg_button text-[14px]">Generar</button>
       </div>
     </form>
   </div>
@@ -46,14 +46,14 @@ const processForm = (ev) => {
           .aviso
               @apply text-xs px-4
       .generador_bottom
-          .svg-button 
+          .svg_button 
               width: 120px
               height: 50px
-              background-image: url('img/fondo_boton.svg') 
+              background-image: url('/img/fondo_boton.svg') 
               background-size: 100%  // Ajusta esto según tus necesidades
               background-position-y: 50% 
               background-repeat: no-repeat
-              color: #fff // Color del texto en el botón
+              color: #ffff // Color del texto en el botón
               transform: scale(1.4)
               margin-top: .1rem
 </style>
