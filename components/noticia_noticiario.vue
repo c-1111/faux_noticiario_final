@@ -1,6 +1,6 @@
 <template>
     <div id="1"
-        class="noticia border-l-1 border-r-1 border-t-0 border-black border max-[800px]:max-w-[800px] max-[800px]:border-r-0 max-[800px]:border-b-1 max-[800px]:border-l-0"
+        class="noticia   border-t-0 border-black  max-[800px]:max-w-[800px] max-[800px]: max-[800px]:border-b-1 max-[800px]:border-l-0"
         v-show="isHidden">
         <div class="noticia_holder">
             <div class="noticia_top">
@@ -15,7 +15,7 @@
             <div
                 class="noticia_bottom flex flex-row w-full justify-between gap-12 pt-2 pb-0 max-[800px]:grid max-[800px]:grid-cols-1 max-[800px]:pt-2">
                 <div class="noticia_btm_left">
-                    <div class="autor max-w-[50ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">
+                    <div class="autor max-w-[65ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">
                         Un devastador atentado terrorista sacudió el centro de la ciudad en un día que quedará marcado por
                         la tragedia. Al menos 20 personas perdieron la vida y otras 50 resultaron heridas en un acto de
                         violencia que conmocionó a la población. El ataque se llevó a cabo en una concurrida plaza durante
@@ -50,7 +50,7 @@
     </div>
 
     <div id="2"
-        class="noticia border-l-1 border-r-1 border-t-0 border-black border max-[800px]:max-w-[800px] max-[800px]:border-r-0 max-[800px]:border-b-1 max-[800px]:border-l-0">
+        class="noticia border-black  max-[800px]:max-w-[800px] max-[800px]: max-[800px]:border-b-1 max-[800px]:border-l-0">
         <div class="noticia_holder">
             <div class="noticia_top">
                 <div class="titular sty_titular">"Innovación en el Tablero: El Comité de Ajedrez Anuncia una Nueva Pieza"
@@ -65,7 +65,7 @@
             <div
                 class="noticia_bottom flex flex-row w-full justify-between gap-12 pt-2 pb-0 max-[800px]:grid max-[800px]:grid-cols-1 max-[800px]:pt-2">
                 <div class="noticia_btm_left">
-                    <div class="autor max-w-[50ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">
+                    <div class="autor max-w-[65ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">
                         En un emocionante giro de los acontecimientos, la Federación Internacional de Ajedrez ha anunciado
                         oficialmente la introducción de una nueva pieza en el juego milenario. Conocida como "El Dragón",
                         esta pieza promete revolucionar la estrategia y la dinámica del ajedrez como lo conocemos.
@@ -101,7 +101,7 @@
     </div>
 
     <div id="3"
-        class="noticia border-l-1 border-r-1 border-t-0 border-black border max-[800px]:max-w-[800px] max-[800px]:border-r-0 max-[800px]:border-b-1 max-[800px]:border-l-0">
+        class="noticia   border-t-0 border-black  max-[800px]:max-w-[800px] max-[800px]: max-[800px]:border-b-1 max-[800px]:border-l-0">
         <div class="noticia_holder">
             <div class="noticia_top">
                 <div class="titular sty_titular">Preocupación por Injerencias Extranjeras en las Elecciones Francesas</div>
@@ -115,7 +115,7 @@
             <div
                 class="noticia_bottom flex flex-row w-full justify-between gap-12 pt-2 pb-0 max-[800px]:grid max-[800px]:grid-cols-1 max-[800px]:pt-2">
                 <div class="noticia_btm_left">
-                    <div class="autor max-w-[50ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">A
+                    <div class="autor max-w-[65ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">A
                         medida que Francia se prepara para las próximas elecciones, las alarmas han sonado debido a las
                         crecientes preocupaciones sobre posibles injerencias extranjeras en el proceso democrático. Las
                         autoridades francesas están tomando medidas para investigar y abordar cualquier interferencia en la
@@ -153,7 +153,7 @@
     </div>
 
     <div id="4"
-        class="noticia border-l-1 border-r-1 border-t-0 border-black border max-[800px]:max-w-[800px] max-[800px]:border-r-0 max-[800px]:border-b-1 max-[800px]:border-l-0">
+        class="noticia   border-t-0 border-black  max-[800px]:max-w-[800px] max-[800px]: max-[800px]:border-b-1 max-[800px]:border-l-0">
         <div class="noticia_holder">
             <div class="noticia_top">
                 <div class="titular sty_titular">Aumento de los Encuentros Inusuales: Orcas Desencadenan Auge en la Venta de
@@ -168,7 +168,7 @@
             <div
                 class="noticia_bottom flex flex-row w-full justify-between gap-12 pt-2 pb-0 max-[800px]:grid max-[800px]:grid-cols-1 max-[800px]:pt-2">
                 <div class="noticia_btm_left">
-                    <div class="autor max-w-[50ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">
+                    <div class="autor max-w-[65ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">
                         En las costas de España, un fenómeno sorprendente ha estado en aumento: los encuentros inusuales con
                         orcas han llevado a un auge en la venta de armas entre pescadores y empresas turísticas. Estos
                         incidentes, que han incluido daños en barcos y heridas a los tripulantes, han generado temor entre
@@ -209,7 +209,7 @@
     </div>
 
     <div id="5"
-        class="noticia border-l-1 border-r-1 border-t-0 border-black border max-[800px]:max-w-[800px] max-[800px]:border-r-0 max-[800px]:border-b-1 max-[800px]:border-l-0">
+        class="noticia   border-t-0 border-black  max-[800px]:max-w-[800px] max-[800px]: max-[800px]:border-b-1 max-[800px]:border-l-0">
         <div class="noticia_holder">
             <div class="noticia_top">
                 <div class="titular sty_titular">Preocupante Descubrimiento: Declive en el Coeficiente Intelectual de los
@@ -224,7 +224,7 @@
             <div
                 class="noticia_bottom flex flex-row w-full justify-between gap-12 pt-2 pb-0 max-[800px]:grid max-[800px]:grid-cols-1 max-[800px]:pt-2">
                 <div class="noticia_btm_left">
-                    <div class="autor max-w-[50ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">
+                    <div class="autor max-w-[65ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">
                         En un sorprendente hallazgo, un estudio reciente ha revelado que los niños de la actualidad poseen
                         un coeficiente intelectual más bajo en comparación con generaciones pasadas. Este declive en la
                         inteligencia infantil ha encendido alarmas entre educadores y expertos en el desarrollo infantil,
@@ -259,7 +259,7 @@
     </div>
 
     <div id="6"
-        class="noticia border-l-1 border-r-1 border-t-0 border-black border max-[800px]:max-w-[800px] max-[800px]:border-r-0 max-[800px]:border-b-1 max-[800px]:border-l-0">
+        class="noticia   border-t-0 border-black  max-[800px]:max-w-[800px] max-[800px]: max-[800px]:border-b-1 max-[800px]:border-l-0">
         <div class="noticia_holder">
             <div class="noticia_top">
                 <div class="titular sty_titular">Controversia en Barcelona: Nuevo Vertedero Nuclear en el Corazón de la
@@ -274,7 +274,7 @@
             <div
                 class="noticia_bottom flex flex-row w-full justify-between gap-12 pt-2 pb-0 max-[800px]:grid max-[800px]:grid-cols-1 max-[800px]:pt-2">
                 <div class="noticia_btm_left">
-                    <div class="autor max-w-[50ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">
+                    <div class="autor max-w-[65ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">
                         Una tormenta de controversia ha envuelto a Barcelona después de que se anunciara la construcción de
                         un nuevo vertedero nuclear en pleno centro de la ciudad. El proyecto ha desatado una ola de críticas
                         por parte de los residentes y grupos ecologistas, quienes expresan profundas preocupaciones sobre
@@ -312,214 +312,7 @@
             </div>
         </div>
     </div>
-
-    <!-- <div id="7"
-        class="noticia border-l-1 border-r-1 border-t-0 border-black border max-[800px]:max-w-[800px] max-[800px]:border-r-0 max-[800px]:border-b-1 max-[800px]:border-l-0">
-        <div class="noticia_holder">
-            <div class="noticia_top">
-                <div class="titular sty_titular"></div>
-                <div class="subtitulo sty_subtitulo"></div>
-                <div class="top_info">
-                    <div class="lugar sty_lugar"></div>
-                    <div class="timeago sty_tiempo "></div>
-                </div>
-            </div>
-            <div
-                class="noticia_bottom flex flex-row w-full justify-between gap-12 pt-2 pb-0 max-[800px]:grid max-[800px]:grid-cols-1 max-[800px]:pt-2">
-                <div class="noticia_btm_left">
-                    <div class="autor max-w-[50ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">
-                    </div>
-                    <div class="autor font-sf font-light text-[13px] pt-4 text-zinc-400 animate-pulse max-[800px]:pt-10">
-                        Escrita por Miguel Gómez </div>
-                </div>
-                <div class="noticia_btm_right max-h-[500px] max-[800px]:max-w-[800px] max-[800px]:justify-items-center">
-                    <img src="" alt="imagen de la noticia" class=" max-h-[500px] max-[800px]:max-w-[325px]">
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div id="8"
-        class="noticia border-l-1 border-r-1 border-t-0 border-black border max-[800px]:max-w-[800px] max-[800px]:border-r-0 max-[800px]:border-b-1 max-[800px]:border-l-0">
-        <div class="noticia_holder">
-            <div class="noticia_top">
-                <div class="titular sty_titular"></div>
-                <div class="subtitulo sty_subtitulo"></div>
-                <div class="top_info">
-                    <div class="lugar sty_lugar"></div>
-                    <div class="timeago sty_tiempo "></div>
-                </div>
-            </div>
-            <div
-                class="noticia_bottom flex flex-row w-full justify-between gap-12 pt-2 pb-0 max-[800px]:grid max-[800px]:grid-cols-1 max-[800px]:pt-2">
-                <div class="noticia_btm_left">
-                    <div class="autor max-w-[50ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">
-                    </div>
-                    <div class="autor font-sf font-light text-[13px] pt-4 text-zinc-400 animate-pulse max-[800px]:pt-10">
-                        Escrita por Miguel Gómez </div>
-                </div>
-                <div class="noticia_btm_right max-h-[500px] max-[800px]:max-w-[800px] max-[800px]:justify-items-center">
-                    <img src="" alt="imagen de la noticia" class=" max-h-[500px] max-[800px]:max-w-[325px]">
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div id="9"
-        class="noticia border-l-1 border-r-1 border-t-0 border-black border max-[800px]:max-w-[800px] max-[800px]:border-r-0 max-[800px]:border-b-1 max-[800px]:border-l-0">
-        <div class="noticia_holder">
-            <div class="noticia_top">
-                <div class="titular sty_titular"></div>
-                <div class="subtitulo sty_subtitulo"></div>
-                <div class="top_info">
-                    <div class="lugar sty_lugar"></div>
-                    <div class="timeago sty_tiempo "></div>
-                </div>
-            </div>
-            <div
-                class="noticia_bottom flex flex-row w-full justify-between gap-12 pt-2 pb-0 max-[800px]:grid max-[800px]:grid-cols-1 max-[800px]:pt-2">
-                <div class="noticia_btm_left">
-                    <div class="autor max-w-[50ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">
-                    </div>
-                    <div class="autor font-sf font-light text-[13px] pt-4 text-zinc-400 animate-pulse max-[800px]:pt-10">
-                        Escrita por Miguel Gómez </div>
-                </div>
-                <div class="noticia_btm_right max-h-[500px] max-[800px]:max-w-[800px] max-[800px]:justify-items-center">
-                    <img src="" alt="imagen de la noticia" class=" max-h-[500px] max-[800px]:max-w-[325px]">
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div id="10"
-        class="noticia border-l-1 border-r-1 border-t-0 border-black border max-[800px]:max-w-[800px] max-[800px]:border-r-0 max-[800px]:border-b-1 max-[800px]:border-l-0">
-        <div class="noticia_holder">
-            <div class="noticia_top">
-                <div class="titular sty_titular"></div>
-                <div class="subtitulo sty_subtitulo"></div>
-                <div class="top_info">
-                    <div class="lugar sty_lugar"></div>
-                    <div class="timeago sty_tiempo "></div>
-                </div>
-            </div>
-            <div
-                class="noticia_bottom flex flex-row w-full justify-between gap-12 pt-2 pb-0 max-[800px]:grid max-[800px]:grid-cols-1 max-[800px]:pt-2">
-                <div class="noticia_btm_left">
-                    <div class="autor max-w-[50ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">
-                    </div>
-                    <div class="autor font-sf font-light text-[13px] pt-4 text-zinc-400 animate-pulse max-[800px]:pt-10">
-                        Escrita por Miguel Gómez </div>
-                </div>
-                <div class="noticia_btm_right max-h-[500px] max-[800px]:max-w-[800px] max-[800px]:justify-items-center">
-                    <img src="" alt="imagen de la noticia" class=" max-h-[500px] max-[800px]:max-w-[325px]">
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div id="11"
-        class="noticia border-l-1 border-r-1 border-t-0 border-black border max-[800px]:max-w-[800px] max-[800px]:border-r-0 max-[800px]:border-b-1 max-[800px]:border-l-0">
-        <div class="noticia_holder">
-            <div class="noticia_top">
-                <div class="titular sty_titular"></div>
-                <div class="subtitulo sty_subtitulo"></div>
-                <div class="top_info">
-                    <div class="lugar sty_lugar"></div>
-                    <div class="timeago sty_tiempo "></div>
-                </div>
-            </div>
-            <div
-                class="noticia_bottom flex flex-row w-full justify-between gap-12 pt-2 pb-0 max-[800px]:grid max-[800px]:grid-cols-1 max-[800px]:pt-2">
-                <div class="noticia_btm_left">
-                    <div class="autor max-w-[50ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">
-                    </div>
-                    <div class="autor font-sf font-light text-[13px] pt-4 text-zinc-400 animate-pulse max-[800px]:pt-10">
-                        Escrita por Miguel Gómez </div>
-                </div>
-                <div class="noticia_btm_right max-h-[500px] max-[800px]:max-w-[800px] max-[800px]:justify-items-center">
-                    <img src="" alt="imagen de la noticia" class=" max-h-[500px] max-[800px]:max-w-[325px]">
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div id="12"
-        class="noticia border-l-1 border-r-1 border-t-0 border-black border max-[800px]:max-w-[800px] max-[800px]:border-r-0 max-[800px]:border-b-1 max-[800px]:border-l-0">
-        <div class="noticia_holder">
-            <div class="noticia_top">
-                <div class="titular sty_titular"></div>
-                <div class="subtitulo sty_subtitulo"></div>
-                <div class="top_info">
-                    <div class="lugar sty_lugar"></div>
-                    <div class="timeago sty_tiempo "></div>
-                </div>
-            </div>
-            <div
-                class="noticia_bottom flex flex-row w-full justify-between gap-12 pt-2 pb-0 max-[800px]:grid max-[800px]:grid-cols-1 max-[800px]:pt-2">
-                <div class="noticia_btm_left">
-                    <div class="autor max-w-[50ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">
-                    </div>
-                    <div class="autor font-sf font-light text-[13px] pt-4 text-zinc-400 animate-pulse max-[800px]:pt-10">
-                        Escrita por Miguel Gómez </div>
-                </div>
-                <div class="noticia_btm_right max-h-[500px] max-[800px]:max-w-[800px] max-[800px]:justify-items-center">
-                    <img src="" alt="imagen de la noticia" class=" max-h-[500px] max-[800px]:max-w-[325px]">
-                </div>
-
-            </div>
-        </div>
-    </div> -->
-
-    <!-- NOTICIA LONDRES BOMBA
-        class="noticia border-l-1 border-r-1 border-t-0 border-black border max-[800px]:max-w-[800px] max-[800px]:border-r-0 max-[800px]:border-b-1 max-[800px]:border-l-0"
-        v-show="isHidden">
-        <div class="noticia_holder">
-            <div class="noticia_top">
-                <div class="titular sty_titular">Explosión en Londres: Atentado Sacude la Ciudad</div>
-                <div class="subtitulo sty_subtitulo">En un desafortunado suceso, la capital británica fue sacudida por una
-                    bomba que explotó en el corazón de la ciudad, dejando a su paso caos.</div>
-                <div class="top_info">
-                    <div class="lugar sty_lugar">Londres, Reino Unido</div>
-                    <div class="timeago sty_tiempo ">HACE 2 HORAS</div>
-                </div>
-            </div>
-            <div
-                class="noticia_bottom flex flex-row w-full justify-between gap-12 pt-2 pb-0 max-[800px]:grid max-[800px]:grid-cols-1 max-[800px]:pt-2">
-                <div class="noticia_btm_left">
-                    <div class="autor max-w-[50ch] font-lora font-light text-[15px] text-zinc-800 max-[800px]:text-[14px]">
-                        En un desafortunado suceso, la capital británica fue sacudida por una bomba que explotó en el
-                        corazón de la ciudad, dejando a su paso caos y destrucción. <br><br>
-                        El incidente ocurrió hoy por la mañana en una concurrida zona comercial, sembrando el pánico entre
-                        los transeúntes y residentes cercanos. De acuerdo con las autoridades locales, la explosión, de
-                        origen aún desconocido, tuvo lugar cerca de una estación de metro muy transitada y un conocido
-                        centro comercial. Varios testigos relatan haber escuchado una fuerte detonación seguida de una nube
-                        de humo y escombros.
-                        <br><br>Inmediatamente, equipos de emergencia y servicios de seguridad llegaron al lugar para
-                        socorrer a las víctimas y controlar la situación. Aunque aún no se han confirmado los detalles
-                        exactos sobre el número de personas afectadas, se reportan múltiples heridos y posibles fallecidos.
-                        Las autoridades están trabajando incansablemente para brindar asistencia médica y garantizar la
-                        seguridad de todos los ciudadanos.
-                    </div>
-                    <div class="autor font-sf font-light text-[13px] pt-4 text-zinc-400 animate-pulse max-[800px]:pt-10">
-                        escrita por {{ inputValue }} </div>
-                </div>
-                <div class="noticia_btm_right max-h-[500px] max-[800px]:max-w-[800px] max-[800px]:justify-items-center">
-                    <img src="/noticias/imagen_noticia_vert.png" alt="imagen de la noticia"
-                        class=" max-h-[500px] max-[800px]:max-w-[325px]">
-                </div>
-
-            </div>
-        </div>
-    </div> -->
-    
     </template>
-
-
 
 
 <script setup>
@@ -534,7 +327,11 @@ const isHidden = computed(() => {
 
 <style lang="sass">
 .noticia
-    @apply p-8 pt-4 max-w-[1000px]
+    @apply p-8 pt-4 max-w-[1400px]
+    border-bottom: solid 1px #000
+    border-left: solid 1px #000
+    border-right: solid 1px #000
+
     .noticia_holder
         @apply flex flex-col gap-6
         .noticia_top
@@ -545,7 +342,7 @@ const isHidden = computed(() => {
             .subtitulo
                 @apply max-w-[105ch]
             .top_info
-                @apply flex flex-col gap-2 pb-4
+                @apply flex flex-col gap-2 pb-8
                 
                 .timeago
                     @apply animate-pulse

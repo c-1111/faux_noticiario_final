@@ -1,21 +1,36 @@
 <template>
   <div class="app max-[800px]:max-w-[900px]">
-    <Noticiario_header class="  bg-blanco_faux"  />
+    <Noticiario_header class="  bg-blanco_faux" />
     <div class="faux_grid_holder grid grid-cols-[1fr_auto_1fr] max-[800px]:grid-cols-1">
-      <div  class="col_lateral_1 col-span-1 px-4">
-        <Generador @click="launch" class=" sticky top-4"/>
+      <div class="col_lateral_1 col-span-1">
+        <Generador @click="launch" class="sticky top-4" />
       </div>
       <div class="col_central col-span-1">
-        <noticiario_feed  />
+        <noticiario_feed />
       </div>
-      <div class="col_lateral_2 max-[800px]:invisible col-span-1">
+      <div class=" w-fit col_lateral_2 max-[800px]:invisible col-span-1">
+        <div class="link min-w-[170px] font-sf sticky top-0 border-b border-black max-[800px]:pl-0">
+          <div class="text w-full text-center flex flex-row py-4 px-8 ">
+            <a href="https://faux-site.netlify.app/" class="text-center">_proyecto faux</a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="popups_holder" v-show="showPopups1"><Popups1 /></div>
-    <div class="popups_holder2" v-show="showPopups2"><Popups2 /></div>
-    <div class="popups_holder3" v-show="showPopups3"><Popups3 /></div>
-    <div class="popups_holder_text" v-show="showPopupsText"><PopupsText /></div>
-    <div class="popups_holder_faux" v-show="showPopupsFaux"><PopupsFauxFinal /></div>
+    <div class="popups_holder" v-show="showPopups1">
+      <Popups1 />
+    </div>
+    <div class="popups_holder2" v-show="showPopups2">
+      <Popups2 />
+    </div>
+    <div class="popups_holder3" v-show="showPopups3">
+      <Popups3 />
+    </div>
+    <div class="popups_holder_text" v-show="showPopupsText">
+      <PopupsText />
+    </div>
+    <div class="popups_holder_faux" v-show="showPopupsFaux">
+      <PopupsFauxFinal />
+    </div>
 
 
 
@@ -28,11 +43,11 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 
-const showPopups1 = ref(false); 
-const showPopups2 = ref(false); 
-const showPopups3 = ref(false); 
-const showPopupsText = ref(false); 
-const showPopupsFaux = ref(false); 
+const showPopups1 = ref(false);
+const showPopups2 = ref(false);
+const showPopups3 = ref(false);
+const showPopupsText = ref(false);
+const showPopupsFaux = ref(false);
 
 
 

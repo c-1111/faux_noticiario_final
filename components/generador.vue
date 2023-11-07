@@ -1,6 +1,6 @@
 <template>
-  <div class="generador_holder pb-4 max-[800px]:pt-6 max-[800px]:pb-12">
-    <form @submit="processForm" >
+  <div class="generador_holder px-20 pb-4 max-[800px]:pt-6 max-[800px]:pb-12">
+    <form @submit="processForm">
       <div class="generador_top">
         <div class="instruction">nombre / seudónimo</div>
         <input type="text" name="inputData">
@@ -15,7 +15,7 @@
 
 <script setup>
 import { inject } from 'vue'
-const { inputValue } = inject("inputData",) 
+const { inputValue } = inject("inputData",)
 
 
 
