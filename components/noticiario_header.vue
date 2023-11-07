@@ -7,7 +7,7 @@
             <img src="/img/logo_faux_home.svg" alt="">
         </div>
         <div class="logo_holder w-full flex justify-center py-4 font-sf gap-24">
-            <a to="/https://faux-site.netlify.app/" class="link pl-32 pt-2 max-[800px]:pl-0">
+            <a to="https://faux-site.netlify.app/" class="link pl-32 pt-2 max-[800px]:pl-0">
                 <div class="text"> _proyecto faux</div>
             </a>
             <!-- <a to="/" class="link pt-2">
