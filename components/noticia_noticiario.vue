@@ -534,7 +534,7 @@ const isHidden = computed(() => {
 
 <style lang="sass">
 .noticia
-    @apply p-8 pt-4 max-w-[900px]
+    @apply p-8 pt-4 max-w-[1000px]
     .noticia_holder
         @apply flex flex-col gap-6
         .noticia_top

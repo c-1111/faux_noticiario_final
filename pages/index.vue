@@ -5,7 +5,7 @@
       <div  class="col_lateral_1 col-span-1">
         <Generador @click="launch" class=" sticky top-4"/>
       </div>
-      <div class="col_central col-span-1">
+      <div class="col_central col-span-1 p-4">
         <noticiario_feed  />
       </div>
       <div class="col_lateral_2 max-[800px]:invisible col-span-1">
