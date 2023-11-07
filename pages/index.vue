@@ -2,10 +2,10 @@
   <div class="app max-[800px]:max-w-[900px]">
     <Noticiario_header class="  bg-blanco_faux"  />
     <div class="faux_grid_holder grid grid-cols-[1fr_auto_1fr] max-[800px]:grid-cols-1">
-      <div  class="col_lateral_1 col-span-1">
+      <div  class="col_lateral_1 col-span-1 px-4">
         <Generador @click="launch" class=" sticky top-4"/>
       </div>
-      <div class="col_central col-span-1 p-4">
+      <div class="col_central col-span-1">
         <noticiario_feed  />
       </div>
       <div class="col_lateral_2 max-[800px]:invisible col-span-1">
