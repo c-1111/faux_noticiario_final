@@ -1,7 +1,7 @@
 <template>
  <div class="popups">   
     <div class="imagecontainer">
-      <img v-for="(image, index) in images" :key="index" :src="image.src" :class="{ 'blinkingimage': image.blinking }" />
+      <img v-for="(image, index) in images" :key="index" :src="image.src" />
     </div>
   </div>
 </template>
@@ -11,21 +11,10 @@ export default {
   data() {
     return {
       images: [
-        { src: '/img/logo_faux_home.svg', blinking: false, top: 0, left: 0 },
+        { src: '/faux_3d_lag.gif'},
 
       ],
     };
-  },
-  methods: {
-    randomizeBlinking() {
-      this.images.forEach((image) => {
-        image.blinking = Math.random() < 0.1; // Controla si la imagen parpadea o no
-      });
-    },
-  },
-  mounted() {
-    this.randomizeBlinking();
-    setInterval(this.randomizeBlinking, 100); // Cambia el estado de parpadeo cada segundo
   },
 };
 </script>
@@ -41,9 +30,9 @@ export default {
     max-width: 100vw;
     max-height: 100vh;
     img{
-      width: 600px;
-      margin-left: 150%;
-      margin-top: 70%;
+      width: 1400px;
+      margin-left: 10%;
+      margin-top: 10%;
 
     }
   }

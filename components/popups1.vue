@@ -11,13 +11,13 @@ export default {
   data() {
     return {
       images: [
-        { src: '/popups/cash-in-motion.gif', blinking: false, top: 0, left: 0 },
+        // { src: '/popups/cash-in-motion.gif', blinking: false, top: 0, left: 0 },
         // { src: '/popups/normalboom.gif', blinking: false, top: 0, left: 0 },
         { src: '/popups/smiley1.gif', blinking: false, top: 0, left: 0 },
         { src: '/popups/papa_ia.webp', blinking: false , top: 0, left: 0},
         // { src: '/popups/trollface.jpg', blinking: false, top: 0, left: 0 },
         { src: '/popups/sd_card.gif', blinking: false , top: 0, left: 0},
-        { src: '/popups/euros.svg', blinking: false , top: 0, left: 0},
+        // { src: '/popups/euros.svg', blinking: false , top: 0, left: 0},
         { src: '/popups/peces.gif', blinking: false , top: 0, left: 0},
         { src: '/popups/moji_fantasma.gif', blinking: false , top: 0, left: 0},
         { src: '/popups/mariposa.gif', blinking: false , top: 0, left: 0},
@@ -33,11 +33,10 @@ export default {
         // { src: '/popups/jack_kilby.jpg', blinking: false , top: 40, left: 0},
         { src: '/popups/bocadillo.gif', blinking: false , top: 0, left: 0},
         { src: '/popups/moai.png', blinking: false , top: 0, left: 0},
-        { src: '/popups/miku.png', blinking: false , top: 0, left: 0},
+        // { src: '/popups/miku.png', blinking: false , top: 0, left: 0},
         // { src: '/popups/creepy.png', blinking: false , top: 0, left: 0},
         // { src: '/popups/doom.png', blinking: false , top: 0, left: 0},
         { src: '/popups/cam.gif', blinking: false , top: 0, left: 0},
-        { src: '/popups/tombraider.gif', blinking: false , top: 0, left: 0},
         { src: '/popups/repo.jpg', blinking: false , top: 0, left: 0},
         { src: '/popups/nasa1.gif', blinking: false , top: 0, left: 0},
         // { src: '', blinking: false , top: 0, left: 0},

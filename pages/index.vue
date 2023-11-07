@@ -1,15 +1,15 @@
 <template>
   <div class="app max-[800px]:max-w-[900px]">
     <Noticiario_header class="  bg-blanco_faux" />
-    <div class="faux_grid_holder grid grid-cols-[1fr_auto_1fr] max-[800px]:grid-cols-1">
-      <div class="col_lateral_1 col-span-1">
+    <div class="faux_grid_holder grid grid-cols-[1fr_auto_1fr] max-[800px]:grid-cols-1 max-[800px]:items-center ">
+      <div class="col_lateral_1 col-span-1 ">
         <Generador @click="launch" class="sticky top-4" />
       </div>
-      <div class="col_central col-span-1">
+      <div class="col_central col-span-1 max-[800px]:order-3">
         <noticiario_feed />
       </div>
-      <div class=" w-fit col_lateral_2 max-[800px]:invisible col-span-1">
-        <div class="link min-w-[170px] font-sf sticky top-0 border-b border-black max-[800px]:pl-0">
+      <div class=" w-fit col_lateral_2 col-span-1 max-[800px]:pl-0 max-[800px]:order-2 max-[800px]:w-full">
+        <div class="link min-w-[170px] font-sf sticky top-0 border-b border-black">
           <div class="text w-full text-center flex flex-row py-4 px-8 ">
             <a href="https://faux-site.netlify.app/" class="text-center">_proyecto faux</a>
           </div>
@@ -56,19 +56,19 @@ const showPopupsFaux = ref(false);
 const launch = () => {
   setTimeout(() => {
     showPopups1.value = true;
-  }, 11000);
+  }, 13000);
   setTimeout(() => {
     showPopups2.value = true;
-  }, 15000);
+  }, 19000);
   setTimeout(() => {
     showPopups3.value = true;
-  }, 13000);
+  }, 17000);
   setTimeout(() => {
     showPopupsText.value = true;
   }, 9000);
   setTimeout(() => {
     showPopupsFaux.value = true;
-  }, 16000);
+  }, 22000);
 };
 
 

@@ -4,7 +4,7 @@
       <div class="generador_top">
         <div class="instruction">nombre / seudónimo</div>
         <input type="text" name="inputData">
-        <div class="aviso max-w-[32ch] text-center">acepta generar una noticia que será añadida al feed</div>
+        <div class="aviso max-w-[32ch] text-center">genera una noticia que se añadirá al feed</div>
       </div>
       <div class="generador_bottom">
         <button class="svg_button text-[14px]">Generar</button>
@@ -55,5 +55,5 @@ const processForm = (ev) => {
               background-repeat: no-repeat
               color: #ffff // Color del texto en el botón
               transform: scale(1.4)
-              margin-top: .1rem
+              margin-top: 1.1rem
 </style>

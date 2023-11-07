@@ -26,7 +26,7 @@ export default {
         { src: '/popups3/manfire.gif', blinking: false, top: 0, left: 0 },
         { src: '/popups3/minidisc.jpg', blinking: false, top: 0, left: 0 },
         { src: '/popups3/nasalogo.png', blinking: false, top: 0, left: 0 },
-        { src: '/popups3/piss_christ.jpg', blinking: false, top: 0, left: 0 },
+        // { src: '/popups3/piss_christ.jpg', blinking: false, top: 0, left: 0 },
         { src: '/popups3/play.png', blinking: false, top: 0, left: 0 },
         // { src: '/popups3/print.gif', blinking: false, top: 0, left: 0 },
         { src: '/popups3/sea.jpg', blinking: false, top: 0, left: 0 },

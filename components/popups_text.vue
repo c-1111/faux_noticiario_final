@@ -13,9 +13,18 @@ export default {
       images: [
         { src: '/popups_text/ (1).png', blinking: false, top: 0, left: 0 },
         { src: '/popups_text/ (2).png', blinking: false, top: 0, left: 0 },
-        { src: '/popups_text/ (3).png', blinking: false, top: 0, left: 0 },
-        { src: '/popups_text/ (4).png', blinking: false, top: 0, left: 0 },
-        { src: '/popups_text/ (5).png', blinking: false, top: 0, left: 0 },
+        { src: '/popups_text/ (2).png', blinking: false, top: 0, left: 0 },
+        { src: '/popups_text/ (1).png', blinking: false, top: 0, left: 0 },
+        { src: '/popups_text/ (1).png', blinking: false, top: 0, left: 0 },
+        { src: '/popups_text/ (2).png', blinking: false, top: 0, left: 0 },
+        { src: '/popups_text/ (2).png', blinking: false, top: 0, left: 0 },
+        { src: '/popups_text/ (1).png', blinking: false, top: 0, left: 0 },
+        { src: '/popups_text/ (1).png', blinking: false, top: 0, left: 0 },
+        { src: '/popups_text/ (2).png', blinking: false, top: 0, left: 0 },
+        { src: '/popups_text/ (2).png', blinking: false, top: 0, left: 0 },
+        // { src: '/popups_text/ (3).png', blinking: false, top: 0, left: 0 },
+        // { src: '/popups_text/ (4).png', blinking: false, top: 0, left: 0 },
+        // { src: '/popups_text/ (5).png', blinking: false, top: 0, left: 0 },
       ],
     };
   },
@@ -39,7 +48,7 @@ export default {
   {
     display: grid;
     overflow-wrap: normal;
-    grid-template-columns: 1fr 1fr  ;
+    grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows:1fr 1fr 1fr ;
     max-width: 100vw;
     max-height: 100vh;
@@ -47,7 +56,6 @@ export default {
     img{
       max-width: 500px;
       margin: 50px;
-      margin-left: 5rem;
     }
   }
   .blinkingimage {
