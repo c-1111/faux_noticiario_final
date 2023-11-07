@@ -39,7 +39,7 @@
 
                     </div>
                     <div class="autor font-sf font-light text-[13px] pt-4 text-zinc-400 animate-pulse max-[800px]:pt-10">
-                        escrita por {{ inputValue }} </div>
+                        Noticia generada por {{ inputValue }} </div>
                 </div>
                 <div class="noticia_btm_right max-h-[500px] max-[800px]:max-w-[800px] max-[800px]:justify-items-center">
                     <img src="/noticias/atentado.jpg" alt="imagen de la noticia" class=" max-h-[500px] max-[800px]:max-w-[325px]">

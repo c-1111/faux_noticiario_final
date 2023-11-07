@@ -1,5 +1,5 @@
 <template>
-    <div class="feed_holder max-[800px]:max-[800px]">
+    <div class="feed_holder max-w-[1100px] max-[800px]:max-[800px]">
         <div >
             <noticia_noticiario />
         </div>

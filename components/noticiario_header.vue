@@ -7,12 +7,12 @@
             <img src="/img/logo_faux_home.svg" alt="">
         </div>
         <div class="logo_holder w-full flex justify-center py-4 font-sf gap-24">
-            <NuxtLink to="/" class="link pl-32 pt-2 max-[800px]:pl-0">
+            <a to="/https://faux-site.netlify.app/" class="link pl-32 pt-2 max-[800px]:pl-0">
                 <div class="text"> _proyecto faux</div>
-            </NuxtLink>
-            <NuxtLink to="/" class="link pt-2">
-                <div class="text"> _redes sociales</div>
-            </NuxtLink>
+            </a>
+            <!-- <a to="/" class="link pt-2">
+                <div class="text">redes sociales</div>
+            </a> -->
         </div>
     </div>
 </template>
