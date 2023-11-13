@@ -69,8 +69,7 @@ export default {
     max-height: 100vh;
     overflow:visible;
     img{
-      max-width: 250px;
-      margin: -50px;
+      max-width: 300px;
     }
   }
   .blinkingimage {

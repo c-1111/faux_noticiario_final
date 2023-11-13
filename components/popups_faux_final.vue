@@ -40,10 +40,11 @@ export default {
       border: solid 1px #000;
       
     } @media (max-width: 600px) {
-      max-width: 200px;
+      max-width: 100px;
       margin-left: 30%;
       margin-top: 5%;
       gap: 4rem;
+      background: #ffffff93;
 }
   }
   .blinkingimage {

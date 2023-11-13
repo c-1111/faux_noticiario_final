@@ -75,7 +75,7 @@ const launch = () => {
   }, 9000);
   setTimeout(() => {
     showPopupsFaux.value = true;
-  }, 22000);
+  }, 25000);
 };
 
 
@@ -93,17 +93,17 @@ provide("inputData", {
   .app
       @apply bg-white
       .popups_holder
-        @apply fixed top-0 z-30 w-full
+        @apply fixed top-0 z-30 w-full h-full
       .popups_holder2
-        @apply fixed top-0 z-20 w-full
+        @apply fixed top-0 z-20 w-full h-full
       .popups_holder3
-        @apply fixed top-0 z-10 w-full
+        @apply fixed top-0 z-10 w-full h-full
       .popups_holder4
-        @apply fixed top-0 z-40 w-full
+        @apply fixed top-0 z-40 w-full h-full
       .popups_holder_text
-        @apply fixed top-0 z-10 w-full
+        @apply fixed top-0 z-10 w-full h-full
       .popups_holder_faux
-        @apply fixed top-0 z-50 w-full
+        @apply fixed top-0 z-50 w-full h-full
 
 
   </style>
