@@ -12,6 +12,7 @@ export default {
     return {
       images: [
         { src: '/faux_3d.gif'},
+        { src: '/tagline.png' },
 
       ],
     };
@@ -24,17 +25,26 @@ export default {
 .imagecontainer
   {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow-wrap: normal;
     max-width: 100vw;
     max-height: 100vh;
     img{
-      width: 1400px;
-      margin-left: 10%;
+      max-width: 400px;
+      margin-left: 1%;
       margin-top: 1%;
-
-    }
+      background: #fff;
+      padding: 2rem;
+      border: solid 1px #000;
+      
+    } @media (max-width: 600px) {
+      max-width: 200px;
+      margin-left: 30%;
+      margin-top: 5%;
+      gap: 4rem;
+}
   }
   .blinkingimage {
     opacity: 0;

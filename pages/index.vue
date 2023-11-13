@@ -93,17 +93,17 @@ provide("inputData", {
   .app
       @apply bg-white
       .popups_holder
-        @apply fixed top-0 z-30 
+        @apply fixed top-0 z-30 w-full
       .popups_holder2
-        @apply fixed top-0 z-20
+        @apply fixed top-0 z-20 w-full
       .popups_holder3
-        @apply fixed top-0 z-10 
+        @apply fixed top-0 z-10 w-full
       .popups_holder4
-        @apply fixed top-0 z-40 
+        @apply fixed top-0 z-40 w-full
       .popups_holder_text
-        @apply fixed top-0 z-10
+        @apply fixed top-0 z-10 w-full
       .popups_holder_faux
-        @apply fixed top-0 z-50
+        @apply fixed top-0 z-50 w-full
 
 
   </style>
