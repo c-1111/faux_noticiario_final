@@ -11,7 +11,7 @@ export default {
   data() {
     return {
       images: [
-        { src: '/faux_3d_lag.gif'},
+        { src: '/faux_3d.gif'},
 
       ],
     };
@@ -32,7 +32,7 @@ export default {
     img{
       width: 1400px;
       margin-left: 10%;
-      margin-top: 10%;
+      margin-top: 1%;
 
     }
   }

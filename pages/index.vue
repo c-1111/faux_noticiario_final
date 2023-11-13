@@ -8,7 +8,7 @@
       <div class="col_central col-span-1 max-[800px]:order-3">
         <noticiario_feed />
       </div>
-      <div class=" w-fit col_lateral_2 col-span-1 max-[800px]:pl-0 max-[800px]:order-2 max-[800px]:w-full">
+      <div class="  col_lateral_2 col-span-1 max-[800px]:pl-0 max-[800px]:order-2 max-[800px]:w-full">
         <div class="link min-w-[170px] font-sf sticky top-0 border-b border-black">
           <div class="text w-full text-center flex flex-row py-4 px-8 ">
             <a href="https://faux-site.netlify.app/" class="text-center">_proyecto faux</a>
@@ -24,6 +24,9 @@
     </div>
     <div class="popups_holder3" v-show="showPopups3">
       <Popups3 />
+    </div>
+    <div class="popups_holder4" v-show="showPopups4">
+      <Popups4 />
     </div>
     <div class="popups_holder_text" v-show="showPopupsText">
       <PopupsText />
@@ -46,6 +49,7 @@ import { ref, onMounted } from 'vue';
 const showPopups1 = ref(false);
 const showPopups2 = ref(false);
 const showPopups3 = ref(false);
+const showPopups4 = ref(false);
 const showPopupsText = ref(false);
 const showPopupsFaux = ref(false);
 
@@ -63,6 +67,9 @@ const launch = () => {
   setTimeout(() => {
     showPopups3.value = true;
   }, 17000);
+  setTimeout(() => {
+    showPopups4.value = true;
+  }, 18000);
   setTimeout(() => {
     showPopupsText.value = true;
   }, 9000);
@@ -86,11 +93,13 @@ provide("inputData", {
   .app
       @apply bg-white
       .popups_holder
-        @apply fixed top-0 z-30
+        @apply fixed top-0 z-30 
       .popups_holder2
         @apply fixed top-0 z-20
       .popups_holder3
-        @apply fixed top-0 z-10
+        @apply fixed top-0 z-10 
+      .popups_holder4
+        @apply fixed top-0 z-40 
       .popups_holder_text
         @apply fixed top-0 z-10
       .popups_holder_faux
